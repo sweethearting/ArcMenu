@@ -47,7 +47,12 @@
 
 ```
 
+
+
 #在Activity 中只需设置监听函数 便可以捕获每个按钮的状态  
+
+
+```java
  arcMenu.setOnItemClickListener(new ArcMenu.OnmenuItemClickListener() {
             @Override
             public void onClick(View v, int pos) {
@@ -55,4 +60,4 @@
             }
         });
         
-    
+    ```
