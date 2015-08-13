@@ -1,0 +1,43 @@
+<com.ayit.arcmenu.ArcMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:menu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    menu:position="left_top"
+    menu:radius="100dp">
+
+    <RelativeLayout
+        android:id="@+id/menuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_button">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/composer_icn_plus" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_camera"
+        android:tag="Camera" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_music"
+        android:tag="Music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_place"
+        android:tag="Place" />
+
+
+
+</com.ayit.arcmenu.ArcMenu>
+
